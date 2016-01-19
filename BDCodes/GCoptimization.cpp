@@ -271,6 +271,8 @@ GCoptimization::EnergyType GCoptimization::giveSmoothEnergyInternal()
 		}
 	}
 
+	cout <<"eng" << eng <<endl;
+
 	return eng;
 }
 
@@ -922,8 +924,14 @@ GCoptimization::EnergyType GCoptimization::giveDataEnergy()
 {
 	updateLabelingInfo();
 	EnergyType energy = 0;
+
+	cout << "m_num_sites_" << m_num_sites <<endl;
 	for ( SiteID i = 0; i < m_num_sites; i++ )
-		energy += m_labelingDataCosts[i];
+	{
+		energy +=  m_labelingDataCosts[i];
+	}
+
+	cout << "energy" << energy << endl;
 	return energy;
 }
 

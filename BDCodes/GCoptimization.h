@@ -109,6 +109,7 @@
 #include "energy.h"
 #include "graph.cpp"
 #include "maxflow.cpp"
+#include "com.h"
 
 /////////////////////////////////////////////////////////////////////
 // Utility functions, classes, and macros
@@ -174,6 +175,7 @@ public:
 	typedef int LabelID;                     // Type for labels
 	typedef VarID SiteID;                    // Type for sites
 	typedef EnergyTermType (*SmoothCostFn)(SiteID s1, SiteID s2, LabelID l1, LabelID l2);
+	//typedef EnergyTermType (*SmoothCostFn)(SiteID s1, SiteID s2, LabelID l1, LabelID l2, Mat Img, float gamma, float beta);
 	typedef EnergyTermType (*DataCostFn)(SiteID s, LabelID l);
 	typedef EnergyTermType (*SmoothCostFnExtra)(SiteID s1, SiteID s2, LabelID l1, LabelID l2,void *);
 	typedef EnergyTermType (*DataCostFnExtra)(SiteID s, LabelID l,void *);

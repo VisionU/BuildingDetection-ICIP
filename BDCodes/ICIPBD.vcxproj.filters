@@ -42,6 +42,21 @@
     <ClCompile Include="maxflow.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="SpectralCluster.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mymultilabelgraphcut.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GMMModel.h">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowVegetationDetection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GMMModel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="qx_basic.h">
@@ -54,9 +69,6 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="seeds2.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="helper.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="..\BuildingDetection-0.1\ctmf.h">
@@ -72,6 +84,15 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="LinkedBlockList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mymultilabelgraphcut.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowVegetationDetection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="com.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
