@@ -923,9 +923,9 @@ GCoptimization::EnergyType GCoptimization::giveSmoothEnergy()
 GCoptimization::EnergyType GCoptimization::giveDataEnergy()
 {
 	updateLabelingInfo();
-	EnergyType energy = 0;
+	//EnergyType energy = 0;
+	double energy = 0;
 
-	cout << "m_num_sites_" << m_num_sites <<endl;
 	for ( SiteID i = 0; i < m_num_sites; i++ )
 	{
 		energy +=  m_labelingDataCosts[i];
