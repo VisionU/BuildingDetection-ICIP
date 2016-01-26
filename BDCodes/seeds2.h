@@ -41,6 +41,7 @@ public:
 	void iterate();
 
 	UINT* get_labels() { return labels[seeds_top_level]; }
+	UINT* get_labels(int i) { return labels[i]; }
 	// output labels
 	UINT** labels;	 //[level][y * width + x]
 
