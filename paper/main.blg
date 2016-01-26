@@ -1,0 +1,24 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
+The style file: IEEEbib.bst
+Database file #1: refs.bib
+Repeated entry---line 271 of file refs.bib
+ : @article{noronha2001detection
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 338 of file refs.bib
+ : @article{ghaffarian2014automatic
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 607 of file refs.bib
+ : @article{ghaffarian2014automatic
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 616 of file refs.bib
+ : @article{ok2013automated
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 625 of file refs.bib
+ : @article{li2015extracting
+ :                          ,
+I'm skipping whatever remains of this entry
+(There were 5 error messages)

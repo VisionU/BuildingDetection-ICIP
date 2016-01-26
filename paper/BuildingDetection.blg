@@ -1,0 +1,14 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: BuildingDetection.aux
+The style file: IEEEbib.bst
+Database file #1: refs.bib
+Repeated entry---line 271 of file refs.bib
+ : @article{noronha2001detection
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 672 of file refs.bib
+ : @article{achanta2012slic
+ :                         ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in ngoautomatic
+Warning--empty year in ngoautomatic
+(There were 2 error messages)
